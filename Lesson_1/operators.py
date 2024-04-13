@@ -46,7 +46,6 @@ print(num_12)
 num = 25
 name = "Elvin"
 word = "ananas"
-
 result = num != 10 or name == "Nick"
 print(result)
 print(num == 25 and "i" in name or word != "orange")
@@ -54,7 +53,6 @@ print(num == 25 and "i" in name or word != "orange")
 lst = [1, 2, 3, 4, 5, 6]
 dct = {"name": "Nick", "age": "6"}
 tpl = ("1", "a", "3", "4")
-
 print(dct["age"] == lst.index(5))
 print(lst.index(3) or tpl.index(-1))
 
